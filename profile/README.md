@@ -33,16 +33,16 @@ Aurélien : Infrastructure, Dev Ops (ajouter git infra)
 
 Raphaël : CI / CD (ajouter git infra)
 
-# Tests / Contrôles Qualité
+### Tests / Contrôles Qualité
 
 Swann, Florent, Gaël : testeurs frontend
 Kevin, Leo, Pierre, Killian : testeurs backend
 Aurélien, Théo, Raphaël : testeurs infrastructures
 
-## Base de données
+### Base de données
 Kevin 
 
-## Gestion de projet
+### Gestion de projet
 
 Raphaël : PO / Scrum
 
