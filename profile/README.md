@@ -29,6 +29,7 @@ Killian : Développeur Backend (Service de Recommandation / Recherche)  (ajouter
 ### Infrastructure
 
 Théo : Infrastructure (Terraform, monitoring, Architecture Cloud, Dev Ops (ajouter git infra)
+
 Aurélien : Infrastructure, Dev Ops (ajouter git infra)
 
 Raphaël : CI / CD (ajouter git infra)
