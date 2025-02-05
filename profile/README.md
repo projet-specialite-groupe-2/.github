@@ -2,8 +2,9 @@
 # Twittix 
 
 
-## Présentation du projet (10 lignes)
-Twittix est un réseau social de micro-bloging révolutionnaire et totalement original. Les utilisateurs peuvent poster du texte, suivre des utilisateurs, intéragir avec les posts de leur feed, et envoyer des messages.
+## Présentation du projet 
+Twittix est un réseau social de micro-bloging révolutionnaire et totalement original. 
+Les utilisateurs peuvent poster du texte, suivre des utilisateurs, intéragir avec les posts de leur feed, et envoyer des messages.
 
 ## Composition de l'équipe
 Lister les noms de chaque membre de l'équipe avec :{ url du dépôt et rôle(s) du membre }
