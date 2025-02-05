@@ -1,4 +1,5 @@
-# Twittix
+# Twittix ![image](https://github.com/user-attachments/assets/1e90b62a-6fd2-4d01-a35b-bdcf2540bcbd)
+
 
 ## Présentation du projet (10 lignes)
 Twittix est un réseau social de micro-bloging révolutionnaire et totalement original. Les utilisateurs peuvent poster du texte, suivre des utilisateurs, intéragir avec les posts de leur feed, et envoyer des messages.
