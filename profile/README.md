@@ -52,7 +52,9 @@ Raphaël : PO / Scrum
 ## Présentation de la CI/CD
 
 ## Schéma de l'architecture micro-service
-[image]
+![micro-services drawio](https://github.com/user-attachments/assets/661b5d9f-b24f-428f-b0d1-cc48de14e5c0)
+
+
 
 ## Liste des services GCP utilisés et estimation du coût
 
