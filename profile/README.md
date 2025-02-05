@@ -7,47 +7,68 @@ Twittix est un réseau social de micro-bloging révolutionnaire et totalement or
 Les utilisateurs peuvent poster du texte, suivre des utilisateurs, intéragir avec les posts de leur feed, et envoyer des messages.
 
 ## Composition de l'équipe
-Lister les noms de chaque membre de l'équipe avec :{ url du dépôt et rôle(s) du membre }
-### Front
+### Frontend
 
-Gaël : Développeur Frontend (ajouter git front)
+**Gaël** : 
+  - Rôles : UX/UI Designer, Développeur Frontend 
+  - [twittix-front-user](https://github.com/projet-specialite-groupe-2/twittix-front-user)
+  - [twittix-front-user](https://github.com/projet-specialite-groupe-2/twittix-front-admin)
+    
+**Swann** : 
+  - Rôles : Architecture Frontend, Développeur Frontend
+  - [twittix-front-user](https://github.com/projet-specialite-groupe-2/twittix-front-user)
+  - [twittix-front-user](https://github.com/projet-specialite-groupe-2/twittix-front-admin)
 
-Swann : Développeur Frontend, Architecture Frontend (ajouter git front)
+**Florent** : 
+  - Rôle : Développeur Frontend
+  - [twittix-front-user](https://github.com/projet-specialite-groupe-2/twittix-front-user)
+  - [twittix-front-admin](https://github.com/projet-specialite-groupe-2/twittix-front-admin)
 
-Florent : Développeur Frontend (ajouter git front)
 
-### Back
+### Backend
 
-Kevin : Développeur Backend (Web Socket / Authentification) , Base de données (ajouter git back)
+**Kevin** : 
+  - Rôles : Développeur Backend (Authentification) :
+  - [twittix-auth-api](https://github.com/projet-specialite-groupe-2/twittix-auth-api)
 
-Leo : Développeur Backend,  Architecture Backend  (ajouter git back)
+**Léo** : 
+  - Rôles : Architecture Backend, Développeur Backend (Symfony)
+  - [twittix-api](https://github.com/projet-specialite-groupe-2/twittix-api)
 
-Pierre : Développeur Backend, Architecture Backend  (ajouter git back)
+**Pierre** : 
+  - Rôles : Développeur Backend, Architecture Backend (Symfony)
+  - [twittix-api](https://github.com/projet-specialite-groupe-2/twittix-api)
 
-Killian : Développeur Backend (Service de Recommandation / Recherche)  (ajouter git back)
+**Killian**: 
+- Rôle : Développeur Backend (Service de Recommandation)
+- [twittix-recommandation-api](https://github.com/projet-specialite-groupe-2/twittix-recommandation-api)
 
 ### Infrastructure
 
-Théo : Infrastructure (Terraform, monitoring, Architecture Cloud, Dev Ops (ajouter git infra)
+**Théo** : 
+  - Rôles:  Cloud Architect, Dev Ops
+  - [twittix-infrastructure](https://github.com/projet-specialite-groupe-2/twittix-infrastructure)
 
-Aurélien : Infrastructure, Dev Ops (ajouter git infra)
+**Aurélien** : 
+  - Rôles : Cloud Architect, Dev Ops, Monitoring
+  - [twittix-infrastructure](https://github.com/projet-specialite-groupe-2/twittix-infrastructure)
 
-Raphaël : CI / CD (ajouter git infra)
+**Raphaël** : 
+    - Cloud Architect, Dev Ops
 
 ### Tests / Contrôles Qualité
 
-Swann, Florent, Gaël : testeurs frontend
+**Swann, Florent, Gaël** : testeurs frontend
 
-Kevin, Leo, Pierre, Killian : testeurs backend
+**Kevin, Leo, Pierre, Killian** : testeurs backend
 
-Aurélien, Théo, Raphaël : testeurs infrastructures
+**Aurélien, Théo, Raphaël** : testeurs infrastructures
 
-### Base de données
-Kevin 
 
 ### Gestion de projet
 
-Raphaël : PO / Scrum
+  **Raphaël** :
+   - Rôles: Product Owner, Scrum Master
 
 ## Présentation de la CI/CD
 
@@ -58,11 +79,27 @@ Raphaël : PO / Scrum
 
 ## Liste des services GCP utilisés et estimation du coût
 
+### Backend, Service de Suggestion, Service d'Authentification, Frontend Utilisateur, Frontend Administrateur
+- Service utilisé : **Cloud Run**
+  - Description : **Cloud Run** permet d’exécuter des conteneurs en mode serverless. Chaque service est déployé dans un conteneur individuel, ce qui permet une gestion flexible et automatique des ressources.
+  - Avantages :
+    - Scalabilité automatique : Le nombre de instances de chaque service augmente ou diminue en fonction du trafic.
+    - Pay-as-you-go : Nous ne payons que pour les ressources que nous utilisons, ce qui optimise les coûts.
+- Estimation des coûts :
+  - Le coût dépend principalement de la durée d’exécution et des ressources (CPU et mémoire) allouées à chaque conteneur.
+
+### Base de données relationnelle (SQL)
+- Service utilisé : **Cloud SQL**
+
+### Base de données en cache (Redis)
+- Service utilisé : **Memory Store for Redis**
+
+### Surveillance et Logging
+- Services utilisés : **Cloud Monitoring et Cloud Logging**
+  
 ## "Mode d'emploi"
 Tuto sur les différents utilisation de votre app  
 (à faire au fil de l'eau au fur et à mesure des mise en prod)
 
-## Conseil
-Viser plus petit et fonctionnel que gros et pas fini
 
 
