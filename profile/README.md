@@ -1,4 +1,5 @@
-# Twittix ![image](https://github.com/user-attachments/assets/1e90b62a-6fd2-4d01-a35b-bdcf2540bcbd)
+![image](https://github.com/user-attachments/assets/1e90b62a-6fd2-4d01-a35b-bdcf2540bcbd)
+# Twittix 
 
 
 ## Présentation du projet (10 lignes)
