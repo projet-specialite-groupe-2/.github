@@ -12,12 +12,12 @@ Les utilisateurs peuvent poster du texte, suivre des utilisateurs, intéragir av
 **Gaël** : 
   - Rôles : UX/UI Designer, Développeur Frontend 
   - [twittix-front-user](https://github.com/projet-specialite-groupe-2/twittix-front-user)
-  - [twittix-front-user](https://github.com/projet-specialite-groupe-2/twittix-front-admin)
+  - [twittix-front-admin](https://github.com/projet-specialite-groupe-2/twittix-front-admin)
     
 **Swann** : 
   - Rôles : Architecture Frontend, Développeur Frontend
   - [twittix-front-user](https://github.com/projet-specialite-groupe-2/twittix-front-user)
-  - [twittix-front-user](https://github.com/projet-specialite-groupe-2/twittix-front-admin)
+  - [twittix-front-admin](https://github.com/projet-specialite-groupe-2/twittix-front-admin)
 
 **Florent** : 
   - Rôle : Développeur Frontend
@@ -54,7 +54,7 @@ Les utilisateurs peuvent poster du texte, suivre des utilisateurs, intéragir av
   - [twittix-infrastructure](https://github.com/projet-specialite-groupe-2/twittix-infrastructure)
 
 **Raphaël** : 
-    - Cloud Architect, Dev Ops
+  - Cloud Architect, Dev Ops
 
 ### Tests / Contrôles Qualité
 
