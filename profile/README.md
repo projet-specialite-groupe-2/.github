@@ -37,7 +37,9 @@ Raphaël : CI / CD (ajouter git infra)
 ### Tests / Contrôles Qualité
 
 Swann, Florent, Gaël : testeurs frontend
+
 Kevin, Leo, Pierre, Killian : testeurs backend
+
 Aurélien, Théo, Raphaël : testeurs infrastructures
 
 ### Base de données
